@@ -19,3 +19,8 @@ class Villageois(Personnage.Personnage):
     def __init__(self, membre):
         """Constructeur de notre classe"""
         super(Villageois, self).__init__(membre, role_name="Villageois")
+
+    def role(self):
+        desc = """ Tu es {} \n Tu as un rôle classique. Lorsque le village se réveille, tu votes avec les autres joueurs pour éliminer ceux que tu crois être Loup !""".format(
+            self.role_name)
+        return desc

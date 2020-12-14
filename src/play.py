@@ -26,6 +26,9 @@ def main() :
 
     for perso in personnages:
         print(perso.who())
+        print(perso.see_channels())
+        print(perso.see_pouvoirs())
+        print(perso.role())
 
 if __name__ == "__main__":
    main()

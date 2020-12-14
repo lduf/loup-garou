@@ -15,4 +15,10 @@ class Voyante(Personnage.Personnage):
 
     def __init__(self, membre):
         """Constructeur de notre classe"""
-        super(Voyante, self).__init__(membre, role_name="Voyante", channel_name=["Voyante"])
+        pouvoirs = "voir"
+        super(Voyante, self).__init__(membre, role_name="Voyante", pouvoirs = pouvoirs, channel_name="Voyante")
+
+    def role(self):
+        desc = """ Tu es {} \n Grâce à tes talents de voyance, tu peux voir chaque nuit le rôle d'un des autres joueur. Ce pouvoir est puissant, fait en bon usage !""".format(
+            self.role_name)
+        return desc
