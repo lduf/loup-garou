@@ -15,7 +15,7 @@ class Chasseur(Personnage.Personnage):
 
     def __init__(self, membre):
         """Constructeur de notre classe"""
-        pouvoirs = "tuer"
+        pouvoirs = ["tuer"]
         super(Chasseur, self).__init__(membre, pouvoirs= pouvoirs, role_name="Chasseur")
 
     def role(self):

@@ -15,8 +15,8 @@ class LoupGarou(Personnage.Personnage):
 
     def __init__(self, membre):
         """Constructeur de notre classe"""
-        channel_name = "Loup Garou"
-        pouvoirs = "tuer"
+        channel_name = ["Loup Garou"]
+        pouvoirs = ["tuer"]
         super(LoupGarou, self).__init__(membre, role_name="Loup Garou", pouvoirs = pouvoirs, channel_name= channel_name)
 
     def role(self):

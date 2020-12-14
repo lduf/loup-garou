@@ -16,7 +16,7 @@ class Sorciere(Personnage.Personnage):
     def __init__(self, membre):
         """Constructeur de notre classe"""
         pouvoirs= ["empoisonner","reanimer"]
-        super(Sorciere, self).__init__(membre, role_name="Sorcière", pouvoirs=pouvoirs, channel_name="Sorcière")
+        super(Sorciere, self).__init__(membre, role_name="Sorcière", pouvoirs=pouvoirs, channel_name=["Sorcière"])
 
     def role(self):
         desc = """ Tu es {} \n Tu as deux potions : une de vie et une de mort. Lorsque vient ton tour, tu pourras décider de sauver la personne tuée par les Loups !
