@@ -1,4 +1,4 @@
-# Loup-garrou
+# Loup-garou
 Projet de création d'un bot de loup garou
 
 ## Objectif :
