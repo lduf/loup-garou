@@ -39,7 +39,7 @@ Chaque nuit elle peut voir le rôle d'un autre joueur.
 
 *Pouvoir :*
  - Vote
- - Voir le vote d'un autre joueur
+ - Voir le rôle d'un autre joueur
  
 ### Petite Fille
 
