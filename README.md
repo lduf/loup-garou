@@ -26,7 +26,7 @@ Ce rôle mène la double vie : il est appelé la nuit et doit tuer les villageoi
 
 ### Sorcière
 
-Ce role à deux potions (uniquement deux ^^) : une de vie de rappeler qqn a la vie et une potion de mort pour tuer n'importe qui.
+Ce role à deux potions (uniquement deux ^^) : une de vie pour rappeler qqn a la vie et une potion de mort pour tuer n'importe qui.
 Intervient après le vote des loups (donc avant le réveil)
 
 *Pouvoir :*
